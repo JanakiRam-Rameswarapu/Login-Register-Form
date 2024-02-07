@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body{
+   
+    display: flex;
+    background-color: #2d3848;
+    justify-content: center;
+    align-items: center;
+    block-size: 100vh;
+    font-family:'Poppins', sans-serif ;
+}
+
+#username,#password,#email,#password2{
+    /* color: #ffffff; */
+    
+    inline-size:300px;
+}
+.remember-forgot{
+    display: flex;
+    align-items: center;
+    margin:-15px 0 15px;
+}
+.rememberMe{
+    margin-inline-end: 180px;
+}
+.forgot-password{
+    margin-inline-start: 60px; 
+    font-size: 15px;
+    color:black;
+}
+
+form{
+    
+    padding: 10px;
+    background: rgb(240, 240, 240);
+    border-radius: 10px;
+    box-shadow:  black;
+    width: 350px;
+
+}
+h1{
+    text-align: center;  
+    font-family: 'Jost', sans-serif;  
+}
+form input{
+    
+	block-size: 20px;
+	background: #e0dede;
+	display: flex;
+	margin: 20px auto;
+	padding: 15px;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+}
+form input[type="submit"] {
+    
+    width: 100%;
+	height: 45px;
+	display: block;
+	color: #fff;
+	background: #144458;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 4px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#registration{
+    text-align: center;
+    
+}
+b,a{
+    color: #02a6a1;
+}
+#SignIn{
+    text-align: center;
+}
+#errorMessage{
+    color:rgb(255, 0, 0);
+    font-size: 15px;
+    /* font-weight: 100px; */
+}
+
+.password-container {
+    position: relative;
+}
+
+.password-container #togglePassword {
+    block-size: 25px;
+    position: absolute;
+    inset-block-start: 52%;
+    inset-inline-end: 25px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.line{
+    text-align: center;
+}
+.or-title{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    align-items: center;
+    margin: 20px 30px;
+
+}
+.or-title::before ,.or-title::after{
+    content:"";
+    block-size:2px;
+    background-color: black;
+    display: center;
+}
+@media (max-inline-size: 768px) {
+
+    body {
+        padding: 2rem 0;
+    }
+
+    form {
+        inline-size: 300px;
+        padding: 2rem;
+    }
+
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+.social-icon{
+    block-size: 46px;
+    inline-size: 46px;
+    border: 1px solid #000000;
+    margin:0 0.45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    background-color: #000000;
+    
+}

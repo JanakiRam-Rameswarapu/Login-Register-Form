@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <form action="/" method="GET">
+    <h1>Login</h1>
+    
+    <input id ="username" type="text" placeholder="Username" required/>
+     <div class="password-container">
+        <input id ="password" type="password" placeholder="Password" required>
+        <img src="hide.png" id ="togglePassword">
+    </div>  
+
+        <label class="remember-forgot">
+        <input type="checkbox" id="rememberMe">Remember me
+        <a href="forgotpassword" class="forgot-password">Forgot Password?</a></label>
+    
+        <div id ="errorMessage" hidden></div>
+
+    <input type="submit" value="Login">
+    <div id ="registration">Don't have an account? <a href="registration.html" ><b>Register</b></a></div>
+    <div class="line">
+        <h3 class="or-title">  Or</h3>
+    </div>
+
+    <div class="social-media">
+        <a href="https://www.google.com/" class="social-icon">
+            <i class="fab fa-google"></i>
+        </a>
+
+        <a href="https://facebook.com/" class="social-icon">
+            <i class="fab fa-facebook"></i>
+        </a>
+
+        <a href="https://www.twitter.com/" class="social-icon">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://github.com/" class="social-icon">
+            <i class="fab fa-github"></i>
+        </a>
+
+    </div>
+
+</form>
+
+</body>
+</html>
